@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  height: 100%; }
+
+body {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1rem;
+  min-height: 100%;
+  background: -moz-radial-gradient(center, circle, #483D8B, white);
+  background: -webkit-radial-gradient(center, circle, #483D8B, white);
+  background: -ms-radial-gradient(center, circle, #483D8B, white);
+  background: -o-radial-gradient(center, circle, #483D8B, white);
+  background-repeat: repeat; }
+
+.header {
+  grid-area: header;
+  display: grid;
+  background: -moz-radial-gradient(center, circle, gray, black);
+  background: -webkit-radial-gradient(center, circle, gray, black);
+  background: -ms-radial-gradient(center, circle, gray, black);
+  background: -o-radial-gradient(center, circle, gray, black);
+  border-radius: 15px; }
+  .header h1 {
+    color: white;
+    font-size: 2em; }
+
+.navbar {
+  background: -moz-radial-gradient(top, circle, black, gray);
+  background: -webkit-radial-gradient(top, circle, black, gray);
+  background: -ms-radial-gradient(top, circle, black, gray);
+  background: -o-radial-gradient(top, circle, black, gray);
+  border-radius: 15px; }
+  .navbar img {
+    margin-left: 20px; }
+  .navbar .nav-link {
+    color: white; }
+
+.mainFaq {
+  grid-area: mainFaq;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-rows: minmax(350px, auto);
+  align-items: center;
+  justify-content: space-evenly; }
+  .mainFaq p {
+    color: white;
+    padding: 15px; }
+  .mainFaq img {
+    border-radius: 30px 0px 30px 0px;
+    box-shadow: 1px 1px 1px 5px rgba(0, 0, 0, 0.3);
+    -moz-transition: -moz-transform 0.3s ease-in-out 0.1s;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
+    -ms-transition: -ms-transform 0.3s ease-in-out 0.1s;
+    -o-transition: -o-transform 0.3s ease-in-out 0.1s; }
+  .mainFaq .img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1); }
+
+.img1 {
+  grid-area: img1;
+  display: grid; }
+  .img1 .i1 {
+    border-radius: 30px;
+    padding: 2px;
+    align-items: center;
+    justify-content: center; }
+
+.main1Faq {
+  grid-area: main1Faq;
+  display: grid;
+  font-size: 1.5em;
+  color: black;
+  line-height: 100%; }
+
+.footer {
+  grid-area: footer;
+  font-size: 1.5em;
+  color: white;
+  line-height: 50px;
+  background: -moz-radial-gradient(center, circle, gray, black);
+  background: -webkit-radial-gradient(center, circle, gray, black);
+  background: -ms-radial-gradient(center, circle, gray, black);
+  background: -o-radial-gradient(center, circle, gray, black);
+  border-radius: 15px; }
+
+.grid-container > * {
+  width: 85%;
+  margin: 0 auto;
+  padding: 1px;
+  margin-top: 1%;
+  text-align: center; }
+
+/*# sourceMappingURL=estilosFaq.css.map */

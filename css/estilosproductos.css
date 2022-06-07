@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  height: 100%; }
+
+body {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1rem;
+  min-height: 100%;
+  background: -moz-radial-gradient(center, circle, #483D8B, white);
+  background: -webkit-radial-gradient(center, circle, #483D8B, white);
+  background: -ms-radial-gradient(center, circle, #483D8B, white);
+  background: -o-radial-gradient(center, circle, #483D8B, white);
+  background-repeat: repeat; }
+
+.header {
+  grid-area: header;
+  display: grid;
+  background: -moz-radial-gradient(center, circle, gray, black);
+  background: -webkit-radial-gradient(center, circle, gray, black);
+  background: -ms-radial-gradient(center, circle, gray, black);
+  background: -o-radial-gradient(center, circle, gray, black);
+  border-radius: 15px; }
+  .header h1 {
+    color: white;
+    font-size: 2em; }
+
+.navbar {
+  background: -moz-radial-gradient(top, circle, black, gray);
+  background: -webkit-radial-gradient(top, circle, black, gray);
+  background: -ms-radial-gradient(top, circle, black, gray);
+  background: -o-radial-gradient(top, circle, black, gray);
+  border-radius: 15px; }
+  .navbar img {
+    margin-left: 20px; }
+  .navbar .nav-link {
+    color: white; }
+
+.mainPro {
+  grid-area: mainPro;
+  display: grid; }
+  .mainPro img {
+    width: 100%;
+    border-radius: 15px; }
+
+.main1pro {
+  grid-area: main1pro;
+  align-items: center;
+  justify-content: center; }
+  .main1pro h1 {
+    color: white;
+    border-radius: 15px;
+    background: -moz-radial-gradient(center, circle, gray, black);
+    background: -webkit-radial-gradient(center, circle, gray, black);
+    background: -ms-radial-gradient(center, circle, gray, black);
+    background: -o-radial-gradient(center, circle, gray, black); }
+
+.main2pro {
+  grid-area: main2pro;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-rows: minmax(250px, auto);
+  align-items: center;
+  justify-content: space-evenly; }
+  .main2pro img {
+    border-radius: 30px 0px 30px 0px;
+    box-shadow: 1px 1px 1px 7px rgba(0, 0, 0, 0.2);
+    -moz-transition: -moz-transform 0.3s ease-in-out 0.1s;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
+    -ms-transition: -ms-transform 0.3s ease-in-out 0.1s;
+    -o-transition: -o-transform 0.3s ease-in-out 0.1s; }
+  .main2pro p {
+    color: white;
+    padding: 5%; }
+  .main2pro .img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1); }
+
+.footer {
+  grid-area: footer;
+  font-size: 1.5em;
+  color: white;
+  line-height: 50px;
+  background: -moz-radial-gradient(center, circle, gray, black);
+  background: -webkit-radial-gradient(center, circle, gray, black);
+  background: -ms-radial-gradient(center, circle, gray, black);
+  background: -o-radial-gradient(center, circle, gray, black);
+  border-radius: 15px; }
+
+.grid-container > * {
+  width: 85%;
+  margin: 0 auto;
+  padding: 1px;
+  margin-top: 1%;
+  text-align: center; }
+
+/*# sourceMappingURL=estilosproductos.css.map */

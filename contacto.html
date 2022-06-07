@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- HOJA DE ESTILOS PRINCIPAL -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body class="grid-container">
+
+    <!-- HEADER -->
+
+    <header class="header">
+        <h1>CONTÁCTANOS</h1>
+    </header>
+
+    <!-- NAVBAR  -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light mt-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Index.html"><img src="Imagenes/pc-display.svg" alt="Logo del comercio" width="40"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto py-1">
+                    <li class="nav-item"><a class="nav-link" href="Index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.html">PRODUCTOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">SERVICIOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="presupuesto.html">PRESUPUESTO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="compra.html">COMPRAR</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main">
+        <img src="Imagenes/Banner4.jpg" alt="No se puede mostrar imagen"> 
+    </div>
+
+    <div class="main2">
+        <h1 class="tit">Completá el formulario y dejanos tu consulta!!!</h1> 
+    </div>
+
+    <div class="formulario">      
+        <form>
+        <label for="fnombre">Nombre:</label>
+        <input type="text" id="fnombre" requiered class="nombre"> 
+        <br>
+        <label for="fapellido"> Apellido:</label>
+        <input type="text" id="fapellido"required class="apellido">
+        <br>
+        <label for="ftelefono"> Telefono:</label>
+        <input type="text" id="ftelefono"required class="telefono">
+        <br>
+        <label for="femail">E m a i l: </label>
+        <input type="email" id="femail" class="email">
+        <br>
+        <textarea cols="100" rows="5" placeholder="Ingresa tu consulta" class="contenedor"></textarea>
+        <br>
+        <input type="submit" value="Enviar Consulta">
+        <a href="presupuesto.html">
+        <input type="button" name="boton" value="Presupestá tu Nueva PC"/></a>
+        
+    </div>
+
+    <!-- PIE DE PÁGINA FOOTER -->
+
+    <div class="footer">@Copyright  2022</div>  
+
+    <!-- SCRIPTS DE ENLACES CON BOOTSTRAP Y JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>  
+</body>
+</html>
+                    
