@@ -1,0 +1,15 @@
+// ESTILOS DE LA PAGINA INDEX.HTML
+
+.main2{
+    grid-area: main2;
+    display:grid;
+    background:-moz-radial-gradient(center, circle,gray, black);
+    background:-webkit-radial-gradient(center, circle, gray, black);
+    background:-ms-radial-gradient(center, circle, gray, black);
+    background:-o-radial-gradient(center, circle,gray,black);
+    border-radius: 15px;
+    .tit{
+        color:white;
+    }
+}
+

@@ -1,0 +1,72 @@
+// ESTILOS de la página INDEX en el ARCHIVO css/estilos.scss
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-size:1rem;
+    min-height: 100%;
+    background:-moz-radial-gradient(center, circle,#483D8B, white);
+    background:-webkit-radial-gradient(center, circle, #483D8B, white);
+    background:-ms-radial-gradient(center, circle, #483D8B, white);
+    background:-o-radial-gradient(center, circle, #483D8B, white);
+    background-repeat: repeat;
+}
+
+// importar archivos principales
+@import "header";
+@import "navbar";
+@import "main";
+@import "main1";
+@import "main2";
+@import "main3";
+@import "main4";
+@import "footer";
+
+.grid-container > *{
+    width: 85%;
+    margin:0 auto;
+    padding: 1px;
+    margin-top:1%;
+    text-align:center;
+}
+
+@mixin medidas($tl) {
+    width: 60%;
+    font-size: $tl;
+    margin:1% auto;
+}
+
+.formulario, .nombre, .apellido, .telefono, .email, .contenedor{
+    @include medidas(1em);   
+}
+
+@media only screen and (min-width:981px) and (max-width:1100px){
+    .formulario, .nombre, .apellido, .telefono, .email, .enviar, .contenedor{
+        @include medidas(1em);
+    }
+}
+
+@media only screen and (min-width:701px) and (max-width:980px){
+    .formulario, .nombre, .apellido, .telefono, .email, .enviar, .contenedor{    
+        @include medidas(1em);
+    }
+}
+
+@media only screen and (min-width:280px) and (max-width:700px){
+    .formulario, .nombre, .apellido, .telefono, .email, .enviar, .contenedor{
+        @include medidas(0.8em);
+    }
+}

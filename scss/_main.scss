@@ -1,0 +1,11 @@
+// ESTILOS DE LA PAGINA INDEX.HTML
+
+.main{
+    grid-area: main;  
+    display:grid; 
+    #carouselExampleSlidesOnly, img{
+        width: 100%;
+        margin: auto;
+        border-radius: 15px;
+    } 
+}  

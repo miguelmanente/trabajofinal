@@ -1,0 +1,18 @@
+
+// ESTILOS NAVBAR
+
+.navbar{
+    background:-moz-radial-gradient(top, circle, black, gray);
+    background:-webkit-radial-gradient(top, circle, black, gray);
+    background:-ms-radial-gradient(top, circle, black, gray);
+    background:-o-radial-gradient(top, circle, black, gray);
+    border-radius: 15px;
+    img{
+        margin-left: 20px;
+    }
+    .nav-link{
+        color:white;
+    }
+}
+
+

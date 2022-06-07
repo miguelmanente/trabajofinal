@@ -1,0 +1,29 @@
+// ESTILOS DE LA PAGINA INDEX.HTML
+
+.main3{
+    grid-area: main3;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-rows: minmax(350px, auto);
+    align-items: center;
+    justify-content: space-between; 
+    .img {
+      border-radius: 30px 0px 30px 0px;
+      box-shadow: 1px 1px 1px 5px rgba(0, 0, 0, 0.2);
+      -moz-transition: -moz-transform 0.3s ease-in-out 0.1s;
+      -webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
+      -ms-transition: -ms-transform 0.3s ease-in-out 0.1s;
+      -o-transition: -o-transform 0.3s ease-in-out 0.1s; }
+    .img:hover {
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1); }
+  
+    p{
+        font-size: 1em;
+        padding:10px;
+        color:white;
+    }
+
+}

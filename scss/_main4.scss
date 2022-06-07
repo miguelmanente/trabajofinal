@@ -1,0 +1,54 @@
+.main4{
+    grid-area: main4;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, auto));
+    grid-template-rows: minmax(400px, auto);
+    align-items:flex-end;
+    justify-content: space-evenly;
+    select{
+        font-size: 0.8em;
+        color:black;
+        align-items:center;
+       
+       }
+    p{
+        font-size: 1.5em;
+        color:red;
+        align-content: flex-start;
+     
+    }
+    .boton{
+        width: 30%;
+        margin-left: 1%;
+        border-radius: 5px 5px 5px 5px;
+    }
+    #imagen, #imagen1, #imagen2, #imagen3{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        border-radius: 30px 5px 30px 5px;
+        background-repeat: no-repeat;
+        background-repeat:no-repeat;
+        border:2px solid black;
+        text-align: center;
+        align-items:flex-start;
+    }
+    #precio, #precioM, #precioPlaca, #precioRam{
+        margin-top: 250px;
+        font-size: 2em;
+    }
+
+    .contenedor, #costoPesos, #valorRealDolar, #costoDolar{
+        width: 100%;
+        height: 70%;
+        border:3px solid black;
+        border-radius: 15px 15px 15px 15px;
+        box-shadow:  3px 1px 1px 5px rgba(0, 0, 0, 0.495);
+        margin-top: 30%;
+        margin-bottom: 15%px;
+        padding-top: 14%;
+        background-color: #483D8B;
+        font-size: 2em;
+        color:aliceblue;
+    }
+}

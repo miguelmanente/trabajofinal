@@ -1,0 +1,15 @@
+// ESTILOS HEADER
+
+.header{
+    grid-area: header;
+    display:grid;
+    background:-moz-radial-gradient(center, circle,gray, black);
+    background:-webkit-radial-gradient(center, circle, gray, black);
+    background:-ms-radial-gradient(center, circle, gray, black);
+    background:-o-radial-gradient(center, circle,gray,black);
+    border-radius: 15px;
+    h1,h2{
+        color:white;
+        font-size: 2em;
+    }
+}
